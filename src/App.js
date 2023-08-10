@@ -7,6 +7,7 @@ import Product from './Product';
 import Productcard from './modules/Home/Products';
 import CategoryProduct from './components/CategoryProduct';
 import Cart from './components/cart';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
          <Route path="/products/:id" element={<Product/>}/> 
          <Route path="/products" element={<Productcard/>}/>
          <Route path="/categories/:name" element={<CategoryProduct/>}/>
+         <Route path="/search" element={<Search/>}/>
          <Route path="/cart" element={<Cart/>}/>
          {/* <Route path="/products" element={<ProductCards/>}/> */}
 

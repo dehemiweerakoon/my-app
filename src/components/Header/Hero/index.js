@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom"
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font mt-20">
@@ -10,19 +10,16 @@ const Hero = () => {
             <br className="hidden lg:inline-block" />
             readymade gluten
           </h1>
-          <p className="mb-8 leading-relaxed">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
-          </p>
+          <Link to='/' className="mb-8 leading-relaxed">
+           Have a Nice Day With E-commerce Shop 
+          </Link>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
-              Button
-            </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Button
-            </button>
+            <Link to='/search' className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
+             Find Products
+            </Link>
+            <Link to='/' className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              View All items
+            </Link>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

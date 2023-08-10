@@ -3,8 +3,8 @@ import { Link ,useState} from 'react';
 
 const Products = ({ products = [] }) => {
 
-  const [currentPage, setCurrentPage] = useState(1);
-  const [productsPerPage] = useState(20);
+  // const [currentPage, setCurrentPage] = useState(1);
+  // const [productsPerPage] = useState(20);
  // const products=products1.slice(1,10);
 
   
